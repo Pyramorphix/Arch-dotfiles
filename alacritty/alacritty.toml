@@ -1,0 +1,14 @@
+live_config_reload = true
+
+[shell]
+program = "/bin/fish"
+
+[font]
+normal = { family = "SFMono Nerd Font Mono", style = "Regular" }
+size = 11
+
+[window]
+decorations = "none"
+padding = { x = 16, y = 14 }
+dynamic_padding = false
+opacity = 0.90
