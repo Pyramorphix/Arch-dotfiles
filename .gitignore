@@ -1,0 +1,13 @@
+QtProject.conf
+beets/
+cmus/
+dconf/
+google-chrome/
+libreoffice/
+menus/
+mimeapps.list
+neofetch/
+obsidian/
+pulse/
+vifm/
+xfce4/

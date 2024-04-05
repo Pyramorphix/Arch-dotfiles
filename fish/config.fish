@@ -1,4 +1,7 @@
 if status is-interactive
+  # binding nvim to vim
+  alias vim nvim
+
 	# Setting colors
 	## Prompt
 	set -U fish_color_host d93d67
@@ -39,4 +42,25 @@ if status is-interactive
 
   echo -n -s (set_color $fish_color_user) "$USER" (set_color $fish_color_cwd) " 󰆧 " (set_color $color_host) (prompt_hostname) (set_color normal)
   end
+
+
+  function fish_greeting
+    echo -n "Welcome back, Pyramorphix! " | lolcat -F .15
+    switch (random 1 5)
+      case 1
+        echo "And remember: $(tput bold)never stop grinding"
+      case 2
+        echo "Don't forget to drink some "(set_color 2acaea)"water"
+      case 3
+        echo "This message will self-destruct"
+      case 4
+        echo "Segmentation fault (core dumped)" 
+      case 5
+        echo ""
+    end
+  end
+
+
+
+
 end
