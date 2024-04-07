@@ -10,7 +10,7 @@ window#waybar {
 
 #custom-right-arrow-dark,
 #custom-left-arrow-dark {
-	color: #1a1a1a;
+	color: #1e1e2e;
   font-size: 33px;
   padding-top: 0;
   margin-top: -1px;
@@ -43,7 +43,7 @@ window#waybar {
 #idle_inhibitor {
   padding: 0 20px;
   margin-top: -1px;
-  background-color: rgba(26, 26, 26, .85);
+  background-color: rgba(30, 30, 46, .85);
 }
 
 #pulseaudio {

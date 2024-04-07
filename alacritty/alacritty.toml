@@ -1,5 +1,13 @@
 live_config_reload = true
 
+import = [
+  # "~/.config/alacritty/themes/hardhacker.toml"
+  #"~/.config/alacritty/themes/catppuccin-latte.toml"
+  # "~/.config/alacritty/themes/catppuccin-frappe.toml"
+  # "~/.config/alacritty/themes/catppuccin-macchiato.toml"
+  "~/.config/alacritty/themes/catppuccin-mocha.toml"
+]
+
 [shell]
 program = "/bin/fish"
 

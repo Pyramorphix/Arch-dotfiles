@@ -1,6 +1,8 @@
 if status is-interactive
-  # binding nvim to vim
+  # Useful bindings 
   alias vim nvim
+  alias wgup "sudo wg-quick up"
+  alias wgdown "sudo wg-quick down"
 
 	# Setting colors
 	## Prompt

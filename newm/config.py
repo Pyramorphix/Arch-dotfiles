@@ -20,7 +20,10 @@ corner_radius = 14
 anim_time = .15
 
 view = {
-    'corner_radius': 12
+    'corner_radius': 12,
+    'ssd': {
+        'enabled': False
+    }
 }
 
 background = {
