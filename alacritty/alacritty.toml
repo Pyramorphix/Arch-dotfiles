@@ -20,3 +20,7 @@ decorations = "none"
 padding = { x = 16, y = 14 }
 dynamic_padding = false
 opacity = 0.90
+
+# Fixing different font size on X11:
+[env]
+WINIT_X11_SCALE_FACTOR = "1"

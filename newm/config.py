@@ -33,7 +33,7 @@ background = {
 
 outputs = [
     { 'name': 'eDP-1' },
-    { 'name': 'virt-1', 'pos_x': -1280, 'pos_y': 0, 'width': 1280, 'height': 720 }
+    { 'name': 'virt-1', 'pos_x': -1920, 'pos_y': 0, 'width': 1920, 'height': 1080 }
 ]
 
 focus = {

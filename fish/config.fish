@@ -48,7 +48,7 @@ if status is-interactive
 
   function fish_greeting
     echo -n "Welcome back, Pyramorphix! " | lolcat -F .15
-    switch (random 1 5)
+    switch (random 1 6)
       case 1
         echo "And remember: $(tput bold)never stop grinding"
       case 2
@@ -59,10 +59,33 @@ if status is-interactive
         echo "Segmentation fault (core dumped)" 
       case 5
         echo ""
+      case 6
+        echo -n "Welcome back, Pyramorphix! " | lolcat -F .15
+        echo "(Multicast x2)"
     end
   end
+  
+  # Enabling fzf:
+  eval (fzf --fish)
+  fzf_key_bindings
+  
+  # Binding bat (better cat):
+  export BAT_THEME=catppuccin_mocha
+  alias cat bat
 
+  # Binding eza (better ls):
+  alias ls "eza --icons=always --oneline"
+  
+  # Configuring thefuck:
+  thefuck --alias | source
+  alias f fuck
 
+  # Binding zoxide (better cd):
+  eval "$(zoxide init fish)"
+  alias cd z
 
-
+  # Setting up fzf
+  export FZF_CTRL_T_OPTS="--preview 'bat -n --color=always --line-range :500 {}'"
+  export FZF_ALT_C_OPTS="--preview 'eza --tree --color=always {} | head -200'"
 end
+
