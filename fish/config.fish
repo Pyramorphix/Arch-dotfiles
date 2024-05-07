@@ -6,15 +6,16 @@ if status is-interactive
 
 	# Setting colors
 	## Prompt
-	set -U fish_color_host d93d67
-	set -U fish_color_user d93d67
-	set -U fish_color_cwd d9613d
-	set -U fish_color_status d93d67
+	set -U fish_color_host 89dceb
+	set -U fish_color_user 89dceb
+	set -U fish_color_cwd 89b4fa
+	set -U fish_color_status 89dceb
+
 
 	## Input
-	set -U fish_color_command 00cf9d
-  set -U fish_color_error 86e3c6
-  set -U fish_color_autosuggestion 6E988d
+	set -U fish_color_command 74c7ec
+  set -U fish_color_error f9e2af
+  set -U fish_color_autosuggestion b4befe
 
   function prompt_login --description 'display user name for the prompt'
     if not set -q __fish_machine
