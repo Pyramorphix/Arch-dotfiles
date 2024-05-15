@@ -66,6 +66,15 @@ if status is-interactive
     end
   end
   
+  # I LIKE TRAINS!!!!
+  function trainarmy
+    clear
+    for i in (seq 1 10)
+      sl -2ec
+    end
+    clear
+  end
+
   # Enabling fzf:
   eval (fzf --fish)
   fzf_key_bindings
@@ -80,6 +89,7 @@ if status is-interactive
   # Configuring thefuck:
   thefuck --alias | source
   alias f fuck
+  alias бля fuck
 
   # Binding zoxide (better cd):
   eval "$(zoxide init fish)"
