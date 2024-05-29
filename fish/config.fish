@@ -95,8 +95,9 @@ if status is-interactive
   eval "$(zoxide init fish)"
   alias cd z
 
-  # Setting up fzf
+  # Setting up fzf:
   export FZF_CTRL_T_OPTS="--preview 'bat -n --color=always --line-range :500 {}'"
   export FZF_ALT_C_OPTS="--preview 'eza --tree --color=always {} | head -200'"
+
 end
 
