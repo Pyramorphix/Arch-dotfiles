@@ -4,18 +4,6 @@ if status is-interactive
   alias wgup "sudo wg-quick up"
   alias wgdown "sudo wg-quick down"
 
-	# Setting colors
-	## Prompt
-	set -U fish_color_host 89dceb
-	set -U fish_color_user 89dceb
-	set -U fish_color_cwd 89b4fa
-	set -U fish_color_status 89dceb
-
-
-	## Input
-	set -U fish_color_command 74c7ec
-  set -U fish_color_error f9e2af
-  set -U fish_color_autosuggestion b4befe
 
   function prompt_login --description 'display user name for the prompt'
     if not set -q __fish_machine
@@ -65,6 +53,15 @@ if status is-interactive
         echo "(Multicast x2)"
     end
   end
+
+  # Convenient clear
+  alias cl clear
+
+  # Convenient cd + clear
+  alias cdl "cd && clear"
+
+  # Convenient clear + neofetch
+  alias cln "clear && neofetch"
   
   # I LIKE TRAINS!!!!
   function trainarmy

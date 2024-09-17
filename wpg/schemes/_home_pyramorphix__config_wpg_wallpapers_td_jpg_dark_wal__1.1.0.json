@@ -1,0 +1,28 @@
+{
+    "wallpaper": "/home/pyramorphix/.config/wpg/wallpapers/td.jpg",
+    "alpha": "100",
+
+    "special": {
+        "background": "#03010C",
+        "foreground": "#d489df",
+        "cursor": "#d489df"
+    },
+    "colors": {
+        "color0": "#03010C",
+        "color1": "#1F2192",
+        "color2": "#5E0E99",
+        "color3": "#324DC8",
+        "color4": "#5E58E6",
+        "color5": "#9B2F88",
+        "color6": "#9B10A3",
+        "color7": "#d489df",
+        "color8": "#945f9c",
+        "color9": "#1F2192",
+        "color10": "#5E0E99",
+        "color11": "#324DC8",
+        "color12": "#5E58E6",
+        "color13": "#9B2F88",
+        "color14": "#9B10A3",
+        "color15": "#d489df"
+    }
+}

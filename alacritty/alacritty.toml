@@ -5,7 +5,8 @@ import = [
   #"~/.config/alacritty/themes/catppuccin-latte.toml"
   # "~/.config/alacritty/themes/catppuccin-frappe.toml"
   # "~/.config/alacritty/themes/catppuccin-macchiato.toml"
-  "~/.config/alacritty/themes/catppuccin-mocha.toml"
+  # "~/.config/alacritty/themes/catppuccin-mocha.toml"
+  "~/.config/alacritty/themes/soundwave.toml"
 ]
 
 [shell]
@@ -14,6 +15,12 @@ program = "/bin/fish"
 [font]
 normal = { family = "SFMono Nerd Font Mono", style = "Regular" }
 size = 11
+
+[cursor]
+style = "Beam"
+
+[mouse]
+hide_when_typing = true
 
 [window]
 decorations = "none"

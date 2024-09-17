@@ -9,26 +9,26 @@ ShowSidebar=false
 ToolBarsMovable=Disabled
 
 [Recent Files]
-File1[$e]=$HOME/Downloads/Гайд_письмак_2_сем-1.pdf
-File10[$e]=$HOME/Downloads/Telegram Desktop/1_курс_экзаменационная_сессия_2023_2024.pdf
-File2[$e]=$HOME/Downloads/Имба.pdf
-File3[$e]=$HOME/Downloads/Telegram Desktop/МА-1_27.05.24.pdf
-File4[$e]=$HOME/Downloads/Telegram Desktop/Многомерный анал-2.pdf
-File5[$e]=$HOME/Консультация матан 2 сем.pdf
-File6[$e]=$HOME/Downloads/Petrovich_lectures_pt2.pdf
-File7[$e]=$HOME/Downloads/Telegram Desktop/Многомерный анализ .pdf
-File8[$e]=$HOME/Downloads/Telegram Desktop/kak_isportit_nastroenie_pered_ustnim.pdf
-File9[$e]=$HOME/Downloads/Telegram Desktop/MAIiR-Bilety-neraspisannye-202324.pdf
-Name1[$e]=Гайд_письмак_2_сем-1.pdf
-Name10[$e]=1_курс_экзаменационная_сессия_2023_2024.pdf
-Name2[$e]=Имба.pdf
-Name3[$e]=МА-1_27.05.24.pdf
-Name4[$e]=Многомерный анал-2.pdf
-Name5[$e]=Консультация матан 2 сем.pdf
-Name6[$e]=Petrovich_lectures_pt2.pdf
-Name7[$e]=Многомерный анализ .pdf
-Name8[$e]=kak_isportit_nastroenie_pered_ustnim.pdf
-Name9[$e]=MAIiR-Bilety-neraspisannye-202324.pdf
+File1[$e]=$HOME/TeX/template/main.pdf
+File10[$e]=$HOME/Downloads/Telegram Desktop/ДЗ 1 ЗАРЕМБО.pdf
+File2[$e]=$HOME/Downloads/Telegram Desktop/Writing_Scientific_Reports_for_Junior_Lab_Using_LaTeX.pdf
+File3[$e]=$HOME/Downloads/Telegram Desktop/Tensors.pdf
+File4[$e]=$HOME/Downloads/Telegram Desktop/M1.pdf
+File5[$e]=$HOME/Downloads/Telegram Desktop/46.1.pdf
+File6[$e]=$HOME/Downloads/Пятницкий-Е.С.-Трухан-Н.М.-Ханукаев-Ю.И.-Яковенко-Г.Н.-Сборник-задач-по-аналитической-механике.djvu
+File7[$e]=$HOME/TeX/anMech_3sem/main.pdf
+File8[$e]=$HOME/Downloads/Telegram Desktop/Семинар 1 (3).pdf
+File9[$e]=$HOME/Downloads/Telegram Desktop/Длинные линии 08.pdf
+Name1[$e]=main.pdf
+Name10[$e]=ДЗ 1 ЗАРЕМБО.pdf
+Name2[$e]=Writing_Scientific_Reports_for_Junior_Lab_Using_LaTeX.pdf
+Name3[$e]=Tensors.pdf
+Name4[$e]=M1.pdf
+Name5[$e]=46.1.pdf
+Name6[$e]=Пятницкий-Е.С.-Трухан-Н.М.-Ханукаев-Ю.И.-Яковенко-Г.Н.-Сборник-задач-по-аналитической-механике.djvu
+Name7[$e]=main.pdf
+Name8[$e]=Семинар 1 (3).pdf
+Name9[$e]=Длинные линии 08.pdf
 
 [UiSettings]
 ColorScheme=KvSimplicityDark

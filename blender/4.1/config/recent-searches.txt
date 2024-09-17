@@ -6,7 +6,6 @@ Mesh ▸ Cylinder
 Deform ▸ Surface Deform
    woodcreator_1_basecolor.jpg
    Wood_BaseColor.jpg
-Generate ▸ Subdivision Surface
 Shader ▸ Principled BSDF
  F Wood.001
  F Wood dark
@@ -14,3 +13,4 @@ Generate ▸ Wireframe
 Generate ▸ Bevel
  F Wood
 Generate ▸ Boolean
+Generate ▸ Subdivision Surface

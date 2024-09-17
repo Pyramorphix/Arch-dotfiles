@@ -1,0 +1,202 @@
+{
+    "layer": "top",
+    "position": "left",
+    "width": 40,
+    "margin-top": 6,
+    "margin-bottom": 6,
+    "margin-left": 2,
+    "margin-right": 0,
+    "spacing": 0,
+    "gtk-layer-shell": true,
+
+
+
+
+
+    "modules-left": [
+        "cpu",
+        "memory",
+        "backlight",
+        "pulseaudio#audio",
+        "network"
+    ],
+
+
+    "cpu": {
+        "format": "CPU\n{usage}%",
+        "on-click": "",
+        "tooltip": true
+    },
+
+
+    "memory": {
+        "format": "MEM\n{percentage}%",
+        "tooltip-format": "󰍛 Total: {total:0.1f}GB, Avail: {avail:0.1f}GB, Used: {used:0.1f}GB ({percentage}%)\n󰓡 Total: {swapTotal:0.1f}GB, Avail: {swapAvail:0.1f}GB, Used: {swapUsed:0.1f}GB ({swapPercentage}%)",
+        "on-click": "",
+        "tooltip": true
+    },
+
+
+    "backlight": {
+        "format": "{icon}",
+        "format-icons": ["󰋙", "󰫃", "󰫄", "󰫅", "󰫆", "󰫇", "󰫈"],
+        "on-scroll-up": "brightnessctl set +1%",
+        "on-scroll-down": "brightnessctl set 1%-",
+        "on-click": "",
+        "reverse-scrolling": true,
+        "tooltip": true,
+        "tooltip-format": "{percent}%"
+    },
+
+
+    "pulseaudio#audio": {
+        "format": "{icon}",
+        "format-bluetooth": "󰂯\n{icon}",
+        "format-bluetooth-muted": "󰂯\n󰖁",
+        "format-muted": "󱃓",
+        "format-icons": {
+            // "headphone": "󰋋",
+            // "hands-free": "󰋋",
+            // "headset": "󰋋",
+            // "phone": "",
+            // "portable": "",
+            // "car": "",
+            "default": ["󰄰", "󰪞", "󰪟", "󰪠", "󰪡", "󰪢", "󰪣", "󰪤", "󰪥"]
+        },
+        "on-click": "pactl set-sink-mute @DEFAULT_SINK@ toggle",
+        "on-scroll-up": "pactl set-sink-volume @DEFAULT_SINK@ +1%",
+        "on-scroll-down": "pactl set-sink-volume @DEFAULT_SINK@ -1%",
+        "reverse-scrolling": true,
+        "tooltip": true,
+        "tooltip-format": "{icon}   {volume} %\n{desc}"
+    },
+
+
+    // "pulseaudio#microphone": {
+    //     "format": "{format_source}",
+    //     "format-source": "󰍬 {volume}%",
+    //       "format-source-muted": "󰍭 {volume}%",
+    //     "on-click": "pactl set-source-mute @DEFAULT_SOURCE@ toggle",
+    //     "on-scroll-up": "pactl set-source-volume @DEFAULT_SOURCE@ +1%",
+    //     "on-scroll-down": "pactl set-source-volume @DEFAULT_SOURCE@ -1%",
+    //     "max-volume": 100,
+    //     "tooltip": false
+    // },
+
+
+    "network": {
+        "interval": 1,
+        "interface": "wlan0",
+        "format": "",
+        "format-icons": ["|", "||", "|||", "||||"],
+        "format-wifi": "{icon}",
+        "format-disconnected": "-",
+        "on-click": "nm-connection-editor",
+        "tooltip": true,
+        "tooltip-format": "󰢮   {ifname}\n󰩟   {ipaddr}/{cidr}\n{icon}   {essid}\n󱑽   {signalStrength}% {signaldBm} dBm  {frequency} MHz\n󰞒   {bandwidthDownBytes}\n󰞕   {bandwidthUpBytes}"
+    },
+
+
+    // "bluetooth": {
+    //     "format-disabled": "",
+    //     "format-off": "",
+    //     "format-on": "󰂯",
+    //     "format-connected": "󰂯",
+    //     "format-connected-battery": "󰂯",
+    //     "tooltip-format-connected": "{device_enumerate}",
+    //     "tooltip-format-enumerate-connected": "{device_alias} 󰂄{device_battery_percentage}% {device_address}",
+    //     "on-click": "blueman-manager",
+    //     "tooltip": true
+    // },
+
+
+
+
+
+    "modules-center": [
+        "hyprland/workspaces",
+        "hyprland/submap"
+    ],
+
+
+    "hyprland/workspaces": {
+        "format": "{icon}",
+        "format-icons": {
+            "1": "1",
+            "2": "2",
+            "3": "3",
+            "4": "4",
+            "5": "5",
+            "6": "6",
+            "7": "7",
+            "8": "8",
+            "9": "9",
+            "10": "0",
+            "default": "1"
+        },
+        "on-click": "activate"
+    },
+
+
+    "hyprland/submap": {
+        "format": "{}",
+        "tooltip": false
+    },
+
+
+
+
+
+    "modules-right": [
+        // "pulseaudio#microphone",
+        "clock",
+        "hyprland/language",
+        "battery"
+    ],
+
+
+    "hyprland/language": {
+      "format": "{short}"
+    },
+
+
+    "battery": {
+        "states": {
+            "warning": 30,
+            "critical": 20
+        },
+        "format": "BAT\n{capacity}%",
+        "format-charging": "CHR\n{capacity}%",
+        // "format-plugged": " 󱘖 {capacity}%",
+        // "format-icons": ["", "", "", "", ""],
+        "on-click": "",
+        "tooltip": false
+    },
+
+
+    "clock": {
+        "interval": 1,
+        "locale": "ru_RU.UTF-8",
+        "format": "{:%H\n%M}",
+        "format-alt": "{:%d\n%m\n%y\n\n%H\n%M}",
+        "tooltip": true,
+        "tooltip-format": "<tt><small>{calendar}</small></tt>",
+        "calendar": {
+            "mode"          : "month",
+            "mode-mon-col"  : 3,
+            "weeks-pos"     : "right",
+            "on-scroll"     : 1,
+            "format": {
+                "months":     "<span color='#476eff'><b>{}</b></span>",
+                "days":       "<span color='#ffd9ff'><b>{}</b></span>",
+                "weeks":      "<span color='#f047cb'><b>| {:%W}</b></span>",
+                "weekdays":   "<span color='#7871ef'><b>{}</b></span>",
+                "today":      "<span color='#9513f1'><b><u>{}</u></b></span>"
+                }
+            },
+        "actions":  {
+            "on-click-right": "mode"
+            }
+          }
+}
+
