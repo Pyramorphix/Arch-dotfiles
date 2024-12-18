@@ -1,15 +1,5 @@
-live_config_reload = true
 
-import = [
-  # "~/.config/alacritty/themes/hardhacker.toml"
-  #"~/.config/alacritty/themes/catppuccin-latte.toml"
-  # "~/.config/alacritty/themes/catppuccin-frappe.toml"
-  # "~/.config/alacritty/themes/catppuccin-macchiato.toml"
-  # "~/.config/alacritty/themes/catppuccin-mocha.toml"
-  "~/.config/alacritty/themes/soundwave.toml"
-]
-
-[shell]
+[terminal.shell]
 program = "/bin/fish"
 
 [font]
@@ -31,3 +21,17 @@ opacity = 0.90
 # Fixing different font size on X11:
 [env]
 WINIT_X11_SCALE_FACTOR = "1"
+
+[general]
+live_config_reload = true
+
+import = [
+  # "~/.config/alacritty/themes/hardhacker.toml"
+  #"~/.config/alacritty/themes/catppuccin-latte.toml"
+  # "~/.config/alacritty/themes/catppuccin-frappe.toml"
+  # "~/.config/alacritty/themes/catppuccin-macchiato.toml"
+  # "~/.config/alacritty/themes/catppuccin-mocha.toml"
+  "~/.config/alacritty/themes/soundwave.toml"
+]
+
+[terminal]

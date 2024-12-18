@@ -1,4 +1,5 @@
 # GIMP gimp-warp-tool options
 
+(effect-hardness 100)
 
 # end of gimp-warp-tool options

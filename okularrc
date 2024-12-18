@@ -9,26 +9,26 @@ ShowSidebar=false
 ToolBarsMovable=Disabled
 
 [Recent Files]
-File1[$e]=$HOME/TeX/template/main.pdf
-File10[$e]=$HOME/Downloads/Telegram Desktop/ДЗ 1 ЗАРЕМБО.pdf
-File2[$e]=$HOME/Downloads/Telegram Desktop/Writing_Scientific_Reports_for_Junior_Lab_Using_LaTeX.pdf
-File3[$e]=$HOME/Downloads/Telegram Desktop/Tensors.pdf
-File4[$e]=$HOME/Downloads/Telegram Desktop/M1.pdf
-File5[$e]=$HOME/Downloads/Telegram Desktop/46.1.pdf
-File6[$e]=$HOME/Downloads/Пятницкий-Е.С.-Трухан-Н.М.-Ханукаев-Ю.И.-Яковенко-Г.Н.-Сборник-задач-по-аналитической-механике.djvu
-File7[$e]=$HOME/TeX/anMech_3sem/main.pdf
-File8[$e]=$HOME/Downloads/Telegram Desktop/Семинар 1 (3).pdf
-File9[$e]=$HOME/Downloads/Telegram Desktop/Длинные линии 08.pdf
-Name1[$e]=main.pdf
-Name10[$e]=ДЗ 1 ЗАРЕМБО.pdf
-Name2[$e]=Writing_Scientific_Reports_for_Junior_Lab_Using_LaTeX.pdf
-Name3[$e]=Tensors.pdf
-Name4[$e]=M1.pdf
-Name5[$e]=46.1.pdf
-Name6[$e]=Пятницкий-Е.С.-Трухан-Н.М.-Ханукаев-Ю.И.-Яковенко-Г.Н.-Сборник-задач-по-аналитической-механике.djvu
-Name7[$e]=main.pdf
-Name8[$e]=Семинар 1 (3).pdf
-Name9[$e]=Длинные линии 08.pdf
+File1[$e]=$HOME/Downloads/2k_fopf_andrianov_teoriya-polya.pdf
+File10[$e]=$HOME/Downloads/1-1ru.pdf
+File2[$e]=$HOME/Downloads/utv.2k_lfi_fopf_musaev_teoriya-polya_23-.pdf
+File3[$e]=$HOME/Downloads/2k_fopf_andrianov_teoriya-polya-1.pdf
+File4[$e]=$HOME/Downloads/Telegram Desktop/Notes_241216_132004.pdf
+File5[$e]=$HOME/Downloads/E.N..Sosov.pdf
+File6[$e]=$HOME/Downloads/дз 3 матан -1.pdf
+File7[$e]=$HOME/Downloads/Lesovik_poster.pdf
+File8[$e]=$HOME/Downloads/problems2024-5.pdf
+File9[$e]=$HOME/Downloads/Fedoryuk1977ru.pdf
+Name1[$e]=2k_fopf_andrianov_teoriya-polya.pdf
+Name10[$e]=1-1ru.pdf
+Name2[$e]=utv.2k_lfi_fopf_musaev_teoriya-polya_23-.pdf
+Name3[$e]=2k_fopf_andrianov_teoriya-polya-1.pdf
+Name4[$e]=Notes_241216_132004.pdf
+Name5[$e]=E.N..Sosov.pdf
+Name6[$e]=дз 3 матан -1.pdf
+Name7[$e]=Lesovik_poster.pdf
+Name8[$e]=problems2024-5.pdf
+Name9[$e]=Fedoryuk1977ru.pdf
 
 [UiSettings]
 ColorScheme=KvSimplicityDark

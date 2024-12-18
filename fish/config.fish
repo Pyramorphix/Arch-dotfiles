@@ -62,7 +62,13 @@ if status is-interactive
 
   # Convenient clear + neofetch
   alias cln "clear && neofetch"
+
+  # Convenient clear + ls
+  alias cls "clear && ls"
   
+  # Python
+  alias py "python"
+
   # I LIKE TRAINS!!!!
   function trainarmy
     clear
