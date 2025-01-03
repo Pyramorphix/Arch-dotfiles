@@ -9,26 +9,26 @@ ShowSidebar=false
 ToolBarsMovable=Disabled
 
 [Recent Files]
-File1[$e]=$HOME/Downloads/2k_fopf_andrianov_teoriya-polya.pdf
-File10[$e]=$HOME/Downloads/1-1ru.pdf
-File2[$e]=$HOME/Downloads/utv.2k_lfi_fopf_musaev_teoriya-polya_23-.pdf
-File3[$e]=$HOME/Downloads/2k_fopf_andrianov_teoriya-polya-1.pdf
-File4[$e]=$HOME/Downloads/Telegram Desktop/Notes_241216_132004.pdf
-File5[$e]=$HOME/Downloads/E.N..Sosov.pdf
-File6[$e]=$HOME/Downloads/дз 3 матан -1.pdf
-File7[$e]=$HOME/Downloads/Lesovik_poster.pdf
-File8[$e]=$HOME/Downloads/problems2024-5.pdf
-File9[$e]=$HOME/Downloads/Fedoryuk1977ru.pdf
-Name1[$e]=2k_fopf_andrianov_teoriya-polya.pdf
-Name10[$e]=1-1ru.pdf
-Name2[$e]=utv.2k_lfi_fopf_musaev_teoriya-polya_23-.pdf
-Name3[$e]=2k_fopf_andrianov_teoriya-polya-1.pdf
-Name4[$e]=Notes_241216_132004.pdf
-Name5[$e]=E.N..Sosov.pdf
-Name6[$e]=дз 3 матан -1.pdf
-Name7[$e]=Lesovik_poster.pdf
-Name8[$e]=problems2024-5.pdf
-Name9[$e]=Fedoryuk1977ru.pdf
+File1[$e]=$HOME/TeX/VPV_3sem/mag_space_symmetry.pdf
+File10[$e]=$HOME/Downloads/Telegram Desktop/Билеты (4).pdf
+File2[$e]=$HOME/TeX/VPV_3sem/main.pdf
+File3[$e]=$HOME/Downloads/e_013_04_0729.pdf
+File4[$e]=$HOME/Downloads/r_159_0607.pdf
+File5[$e]=$HOME/Downloads/article_17734.pdf
+File6[$e]=$HOME/Downloads/Telegram Desktop/Экз_программа_электричество_2023-24 (2).pdf
+File7[$e]=$HOME/Downloads/Red and Cream Vintage Christmas Santa Letter.pdf
+File8[$e]=$HOME/Downloads/Telegram Desktop/матан3 (2).pdf
+File9[$e]=$HOME/Downloads/Карасёвник.pdf
+Name1[$e]=mag_space_symmetry.pdf
+Name10[$e]=Билеты (4).pdf
+Name2[$e]=main.pdf
+Name3[$e]=e_013_04_0729.pdf
+Name4[$e]=r_159_0607.pdf
+Name5[$e]=article_17734.pdf
+Name6[$e]=Экз_программа_электричество_2023-24 (2).pdf
+Name7[$e]=Red and Cream Vintage Christmas Santa Letter.pdf
+Name8[$e]=матан3 (2).pdf
+Name9[$e]=Карасёвник.pdf
 
 [UiSettings]
 ColorScheme=KvSimplicityDark
