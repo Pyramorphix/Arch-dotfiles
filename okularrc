@@ -8,27 +8,33 @@ ShowSidebar=false
 [MainWindow]
 ToolBarsMovable=Disabled
 
+[MainWindow][Toolbar quickAnnotationToolBar]
+IconSize=16
+
 [Recent Files]
-File1[$e]=$HOME/TeX/VPV_3sem/mag_space_symmetry.pdf
-File10[$e]=$HOME/Downloads/Telegram Desktop/Билеты (4).pdf
-File2[$e]=$HOME/TeX/VPV_3sem/main.pdf
-File3[$e]=$HOME/Downloads/e_013_04_0729.pdf
-File4[$e]=$HOME/Downloads/r_159_0607.pdf
-File5[$e]=$HOME/Downloads/article_17734.pdf
-File6[$e]=$HOME/Downloads/Telegram Desktop/Экз_программа_электричество_2023-24 (2).pdf
-File7[$e]=$HOME/Downloads/Red and Cream Vintage Christmas Santa Letter.pdf
-File8[$e]=$HOME/Downloads/Telegram Desktop/матан3 (2).pdf
-File9[$e]=$HOME/Downloads/Карасёвник.pdf
-Name1[$e]=mag_space_symmetry.pdf
-Name10[$e]=Билеты (4).pdf
-Name2[$e]=main.pdf
-Name3[$e]=e_013_04_0729.pdf
-Name4[$e]=r_159_0607.pdf
-Name5[$e]=article_17734.pdf
-Name6[$e]=Экз_программа_электричество_2023-24 (2).pdf
-Name7[$e]=Red and Cream Vintage Christmas Santa Letter.pdf
-Name8[$e]=матан3 (2).pdf
-Name9[$e]=Карасёвник.pdf
+File1[$e]=$HOME/TeX/VPV_3sem/main.pdf
+File10[$e]=$HOME/Downloads/Конспекты Арины.pdf
+File2[$e]=$HOME/Downloads/e_013_04_0729.pdf
+File3[$e]=$HOME/Downloads/r_159_0607.pdf
+File4[$e]=$HOME/Downloads/article_17734.pdf
+File5[$e]=$HOME/Downloads/Telegram Desktop/Экз_программа_электричество_2023-24 (2).pdf
+File6[$e]=$HOME/Downloads/Red and Cream Vintage Christmas Santa Letter.pdf
+File7[$e]=$HOME/Downloads/Telegram Desktop/матан3 (2).pdf
+File8[$e]=$HOME/Downloads/Карасёвник.pdf
+File9[$e]=$HOME/Downloads/Telegram Desktop/Билеты (4).pdf
+Name1[$e]=main.pdf
+Name10[$e]=Конспекты Арины.pdf
+Name2[$e]=e_013_04_0729.pdf
+Name3[$e]=r_159_0607.pdf
+Name4[$e]=article_17734.pdf
+Name5[$e]=Экз_программа_электричество_2023-24 (2).pdf
+Name6[$e]=Red and Cream Vintage Christmas Santa Letter.pdf
+Name7[$e]=матан3 (2).pdf
+Name8[$e]=Карасёвник.pdf
+Name9[$e]=Билеты (4).pdf
+
+[Toolbar quickAnnotationToolBar]
+IconSize=16
 
 [UiSettings]
 ColorScheme=KvSimplicityDark
