@@ -9,7 +9,7 @@ import logging
 from newm.layout import Layout
 from newm.helper import BacklightManager, WobRunner, PaCtl
 
-from pywm import (
+from pywm.pywm import (
     PYWM_MOD_LOGO,
     PYWM_MOD_ALT
 )
@@ -40,7 +40,7 @@ focus = {
     'enabled': True,
     'color': '#772a4c',
     'distance': 1,
-    'width': 1,
+    'width': 5,
     'animate_on_change': False,
 }
 wob_runner = WobRunner("wob -a bottom -M 100")
@@ -60,7 +60,7 @@ def key_bindings(layout: Layout) -> list[tuple[str, Callable[[], Any]]]:
         ("L-l", lambda: layout.move(1, 0)),
         ("L-u", lambda: layout.basic_scale(1)),
         ("L-n", lambda: layout.basic_scale(-1)),
-        ("L-t", lambda: layout.move_in_stack(1)),
+        # ("L-t", lambda: layout.move_in_stack(1)),
 
         ("L-H", lambda: layout.move_focused_view(-1, 0)),
         ("L-J", lambda: layout.move_focused_view(0, 1)),
@@ -72,11 +72,15 @@ def key_bindings(layout: Layout) -> list[tuple[str, Callable[[], Any]]]:
         ("L-C-k", lambda: layout.resize_focused_view(0, -1)),
         ("L-C-l", lambda: layout.resize_focused_view(1, 0)),
 
+        # Keybindings for opening apps
         ("L-Return", lambda: os.system("alacritty &")),
+        ("L-c", lambda: os.system("firefox &")),
+        ("L-t", lambda: os.system("telegram-desktop &")),
+
         ("L-q", lambda: layout.close_focused_view()),
 
-        ("L-p", lambda: layout.ensure_locked(dim=True)),
-        ("L-P", lambda: layout.terminate()),
+        ("L-l", lambda: layout.ensure_locked(dim=True)),
+        ("L-M", lambda: layout.terminate()),
         ("L-C", lambda: layout.update_config()),
 
         ("L-f", lambda: layout.toggle_fullscreen()),
@@ -84,8 +88,6 @@ def key_bindings(layout: Layout) -> list[tuple[str, Callable[[], Any]]]:
         ("L-", lambda: layout.toggle_overview()),
 
         ("L-S", lambda: os.system("grim -g \"$(slurp)\" - | swappy -f - &")),
-        ("L-C-c", lambda: os.system("google-chrome-stable &")),
-        ("L-C-t", lambda: os.system("telegram-desktop &")),
         ("L-C-o", lambda: os.system("obsidian --ozone-platform=wayland --enable-features=UseOzonePlatform &")),
 
         ("XF86MonBrightnessUp", lambda: backlight_manager.set(backlight_manager.get() + 0.1)),

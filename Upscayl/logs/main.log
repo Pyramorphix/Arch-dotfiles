@@ -1,0 +1,273 @@
+[2025-01-19 11:38:40.975] [info]  🚃 App Path:  /tmp/.mount_upscay13R0Vu/resources/app.asar
+[2025-01-19 11:38:41.336] [info]  🚀 UPSCAYL EXEC PATH:  /tmp/.mount_upscay13R0Vu/resources/bin/upscayl-
+[2025-01-19 11:38:41.336] [info]  🚀 MODELS PATH:  /tmp/.mount_upscay13R0Vu/resources/models
+[2025-01-19 11:38:42.126] [info]  ⚙️ Setting saveImageAs to png
+[2025-01-19 11:38:42.127] [info]  🔀 Setting model to realesrgan-x4plus
+[2025-01-19 11:38:42.128] [info]  ⚙️ Setting gpuId to empty string
+[2025-01-19 11:38:42.129] [info]  🔀 Setting model to null
+[2025-01-19 11:38:42.130] [info]  🔄 Resetting image paths
+[2025-01-19 11:38:42.142] [info]  🔀 Setting model to realesrgan-x4plus
+[2025-01-19 11:38:46.647] [info]  🔄 Resetting image paths
+[2025-01-19 11:38:51.446] [info]  📄 Selected File Path:  /home/pyramorphix/Downloads/Telegram Desktop/Chelic.jpg
+[2025-01-19 11:38:51.449] [info]  🐞 BACKEND REPORTED:  📄 Selected File Path:  /home/pyramorphix/Downloads/Telegram Desktop/Chelic.jpg
+[2025-01-19 11:38:51.449] [info]  🖼 Selected Image Path:  /home/pyramorphix/Downloads/Telegram Desktop/Chelic.jpg
+[2025-01-19 11:38:51.450] [info]  📁 Selected Image Directory:  /home/pyramorphix/Downloads/Telegram Desktop
+[2025-01-19 11:38:51.451] [info]  🖼 imagePath:  /home/pyramorphix/Downloads/Telegram Desktop/Chelic.jpg
+[2025-01-19 11:38:51.451] [info]  🔤 Extension:  jpg
+[2025-01-19 11:39:01.777] [info]  🔀 Model changed:  realesrgan-x4plus
+[2025-01-19 11:39:01.779] [info]  🔀 Setting model to realesrgan-x4plus
+[2025-01-19 11:39:07.478] [info]  🔄 Resetting Upscaled Image Path
+[2025-01-19 11:39:07.479] [info]  📢 Upscayl Command:  [
+  '-i',
+  '/home/pyramorphix/Downloads/Telegram Desktop/Chelic.jpg',
+  '-o',
+  '/home/pyramorphix/Downloads/Telegram Desktop/Chelic_upscayl_4x_realesrgan-x4plus.png',
+  '-s',
+  '4',
+  '-m',
+  '/tmp/.mount_upscay13R0Vu/resources/models',
+  '-n',
+  'realesrgan-x4plus',
+  '',
+  '',
+  '-f',
+  'png'
+]
+[2025-01-19 11:39:07.494] [info]  🏁 UPSCAYL
+[2025-01-19 11:39:07.533] [info]  image upscayl:  [0 AMD Radeon Graphics (RADV RENOIR)]  queueC=1[4]  queueG=0[1]  queueT=0[1]
+[2025-01-19 11:39:07.533] [info]  image upscayl:  
+[0 AMD Radeon Graphics (RADV RENOIR)]  bugsbn1=0  bugbilz=0  bugcopc=0  bugihfa=0
+[0 AMD Radeon Graphics (RADV RENOIR)]  fp16-p/s/a=1/1/1  int8-p/s/a=1/1/1
+[0 AMD Radeon Graphics (RADV RENOIR)]  subgroup=64  basic=1  vote=1  ballot=1  shuffle=1
+
+[2025-01-19 11:39:07.535] [info]  🐞 BACKEND REPORTED:  📢 Upscayl Command:  -i,/home/pyramorphix/Downloads/Telegram Desktop/Chelic.jpg,-o,/home/pyramorphix/Downloads/Telegram Desktop/Chelic_upscayl_4x_realesrgan-x4plus.png,-s,4,-m,/tmp/.mount_upscay13R0Vu/resources/models,-n,realesrgan-x4plus,,,-f,png
+[2025-01-19 11:39:07.536] [info]  🐞 BACKEND REPORTED:  image upscayl:  [0 AMD Radeon Graphics (RADV RENOIR)]  queueC=1[4]  queueG=0[1]  queueT=0[1]
+[2025-01-19 11:39:07.536] [info]  🚧 UPSCAYL_PROGRESS:  [0 AMD Radeon Graphics (RADV RENOIR)]  queueC=1[4]  queueG=0[1]  queueT=0[1]
+[2025-01-19 11:39:07.537] [info]  🐞 BACKEND REPORTED:  image upscayl:  
+[0 AMD Radeon Graphics (RADV RENOIR)]  bugsbn1=0  bugbilz=0  bugcopc=0  bugihfa=0
+[0 AMD Radeon Graphics (RADV RENOIR)]  fp16-p/s/a=1/1/1  int8-p/s/a=1/1/1
+[0 AMD Radeon Graphics (RADV RENOIR)]  subgroup=64  basic=1  vote=1  ballot=1  shuffle=1
+
+[2025-01-19 11:39:07.537] [info]  🚧 UPSCAYL_PROGRESS:  
+[0 AMD Radeon Graphics (RADV RENOIR)]  bugsbn1=0  bugbilz=0  bugcopc=0  bugihfa=0
+[0 AMD Radeon Graphics (RADV RENOIR)]  fp16-p/s/a=1/1/1  int8-p/s/a=1/1/1
+[0 AMD Radeon Graphics (RADV RENOIR)]  subgroup=64  basic=1  vote=1  ballot=1  shuffle=1
+
+[2025-01-19 11:39:12.775] [info]  image upscayl:  0.00%
+
+[2025-01-19 11:39:12.777] [info]  🐞 BACKEND REPORTED:  image upscayl:  0.00%
+
+[2025-01-19 11:39:12.779] [info]  🚧 UPSCAYL_PROGRESS:  0.00%
+
+[2025-01-19 11:39:17.026] [info]  image upscayl:  2.86%
+
+[2025-01-19 11:39:17.028] [info]  🐞 BACKEND REPORTED:  image upscayl:  2.86%
+
+[2025-01-19 11:39:17.030] [info]  🚧 UPSCAYL_PROGRESS:  2.86%
+
+[2025-01-19 11:39:21.246] [info]  image upscayl:  5.71%
+
+[2025-01-19 11:39:21.247] [info]  🐞 BACKEND REPORTED:  image upscayl:  5.71%
+
+[2025-01-19 11:39:21.249] [info]  🚧 UPSCAYL_PROGRESS:  5.71%
+
+[2025-01-19 11:39:23.868] [info]  ✅ Update Downloaded
+[2025-01-19 11:39:23.879] [info]  🐞 BACKEND REPORTED:  ✅ Update Downloaded
+[2025-01-19 11:39:25.630] [info]  image upscayl:  8.57%
+
+[2025-01-19 11:39:25.632] [info]  🐞 BACKEND REPORTED:  image upscayl:  8.57%
+
+[2025-01-19 11:39:25.633] [info]  🚧 UPSCAYL_PROGRESS:  8.57%
+
+[2025-01-19 11:39:28.844] [info]  🚫 Update Installation Cancelled
+[2025-01-19 11:39:28.846] [info]  🐞 BACKEND REPORTED:  🚫 Update Installation Cancelled
+[2025-01-19 11:39:29.244] [info]  image upscayl:  11.43%
+
+[2025-01-19 11:39:29.245] [info]  🐞 BACKEND REPORTED:  image upscayl:  11.43%
+
+[2025-01-19 11:39:29.247] [info]  🚧 UPSCAYL_PROGRESS:  11.43%
+
+[2025-01-19 11:39:33.683] [info]  image upscayl:  14.29%
+
+[2025-01-19 11:39:33.685] [info]  🐞 BACKEND REPORTED:  image upscayl:  14.29%
+
+[2025-01-19 11:39:33.686] [info]  🚧 UPSCAYL_PROGRESS:  14.29%
+
+[2025-01-19 11:39:37.366] [info]  image upscayl:  17.14%
+
+[2025-01-19 11:39:37.369] [info]  🐞 BACKEND REPORTED:  image upscayl:  17.14%
+
+[2025-01-19 11:39:37.371] [info]  🚧 UPSCAYL_PROGRESS:  17.14%
+
+[2025-01-19 11:39:41.225] [info]  image upscayl:  20.00%
+
+[2025-01-19 11:39:41.227] [info]  🐞 BACKEND REPORTED:  image upscayl:  20.00%
+
+[2025-01-19 11:39:41.228] [info]  🚧 UPSCAYL_PROGRESS:  20.00%
+
+[2025-01-19 11:39:44.997] [info]  image upscayl:  22.86%
+
+[2025-01-19 11:39:44.999] [info]  🐞 BACKEND REPORTED:  image upscayl:  22.86%
+
+[2025-01-19 11:39:45.000] [info]  🚧 UPSCAYL_PROGRESS:  22.86%
+
+[2025-01-19 11:39:48.084] [info]  image upscayl:  25.71%
+
+[2025-01-19 11:39:48.086] [info]  🐞 BACKEND REPORTED:  image upscayl:  25.71%
+
+[2025-01-19 11:39:48.088] [info]  🚧 UPSCAYL_PROGRESS:  25.71%
+
+[2025-01-19 11:39:51.741] [info]  image upscayl:  28.57%
+
+[2025-01-19 11:39:51.743] [info]  🐞 BACKEND REPORTED:  image upscayl:  28.57%
+
+[2025-01-19 11:39:51.746] [info]  🚧 UPSCAYL_PROGRESS:  28.57%
+
+[2025-01-19 11:39:56.045] [info]  image upscayl:  31.43%
+
+[2025-01-19 11:39:56.047] [info]  🐞 BACKEND REPORTED:  image upscayl:  31.43%
+
+[2025-01-19 11:39:56.049] [info]  🚧 UPSCAYL_PROGRESS:  31.43%
+
+[2025-01-19 11:40:00.430] [info]  image upscayl:  34.29%
+
+[2025-01-19 11:40:00.432] [info]  🐞 BACKEND REPORTED:  image upscayl:  34.29%
+
+[2025-01-19 11:40:00.434] [info]  🚧 UPSCAYL_PROGRESS:  34.29%
+
+[2025-01-19 11:40:04.830] [info]  image upscayl:  37.14%
+
+[2025-01-19 11:40:04.831] [info]  🐞 BACKEND REPORTED:  image upscayl:  37.14%
+
+[2025-01-19 11:40:04.833] [info]  🚧 UPSCAYL_PROGRESS:  37.14%
+
+[2025-01-19 11:40:08.231] [info]  image upscayl:  40.00%
+
+[2025-01-19 11:40:08.232] [info]  🐞 BACKEND REPORTED:  image upscayl:  40.00%
+
+[2025-01-19 11:40:08.235] [info]  🚧 UPSCAYL_PROGRESS:  40.00%
+
+[2025-01-19 11:40:12.629] [info]  image upscayl:  42.86%
+
+[2025-01-19 11:40:12.631] [info]  🐞 BACKEND REPORTED:  image upscayl:  42.86%
+
+[2025-01-19 11:40:12.633] [info]  🚧 UPSCAYL_PROGRESS:  42.86%
+
+[2025-01-19 11:40:17.032] [info]  image upscayl:  45.71%
+
+[2025-01-19 11:40:17.034] [info]  🐞 BACKEND REPORTED:  image upscayl:  45.71%
+
+[2025-01-19 11:40:17.036] [info]  🚧 UPSCAYL_PROGRESS:  45.71%
+
+[2025-01-19 11:40:21.430] [info]  image upscayl:  48.57%
+
+[2025-01-19 11:40:21.432] [info]  🐞 BACKEND REPORTED:  image upscayl:  48.57%
+
+[2025-01-19 11:40:21.434] [info]  🚧 UPSCAYL_PROGRESS:  48.57%
+
+[2025-01-19 11:40:25.831] [info]  image upscayl:  51.43%
+
+[2025-01-19 11:40:25.832] [info]  🐞 BACKEND REPORTED:  image upscayl:  51.43%
+
+[2025-01-19 11:40:25.834] [info]  🚧 UPSCAYL_PROGRESS:  51.43%
+
+[2025-01-19 11:40:29.237] [info]  image upscayl:  54.29%
+
+[2025-01-19 11:40:29.239] [info]  🐞 BACKEND REPORTED:  image upscayl:  54.29%
+
+[2025-01-19 11:40:29.241] [info]  🚧 UPSCAYL_PROGRESS:  54.29%
+
+[2025-01-19 11:40:33.630] [info]  image upscayl:  57.14%
+
+[2025-01-19 11:40:33.631] [info]  🐞 BACKEND REPORTED:  image upscayl:  57.14%
+
+[2025-01-19 11:40:33.634] [info]  🚧 UPSCAYL_PROGRESS:  57.14%
+
+[2025-01-19 11:40:38.035] [info]  image upscayl:  60.00%
+
+[2025-01-19 11:40:38.036] [info]  🐞 BACKEND REPORTED:  image upscayl:  60.00%
+
+[2025-01-19 11:40:38.039] [info]  🚧 UPSCAYL_PROGRESS:  60.00%
+
+[2025-01-19 11:40:42.447] [info]  image upscayl:  62.86%
+
+[2025-01-19 11:40:42.449] [info]  🐞 BACKEND REPORTED:  image upscayl:  62.86%
+
+[2025-01-19 11:40:42.452] [info]  🚧 UPSCAYL_PROGRESS:  62.86%
+
+[2025-01-19 11:40:46.854] [info]  image upscayl:  65.71%
+
+[2025-01-19 11:40:46.855] [info]  🐞 BACKEND REPORTED:  image upscayl:  65.71%
+
+[2025-01-19 11:40:46.857] [info]  🚧 UPSCAYL_PROGRESS:  65.71%
+
+[2025-01-19 11:40:50.252] [info]  image upscayl:  68.57%
+
+[2025-01-19 11:40:50.254] [info]  🐞 BACKEND REPORTED:  image upscayl:  68.57%
+
+[2025-01-19 11:40:50.256] [info]  🚧 UPSCAYL_PROGRESS:  68.57%
+
+[2025-01-19 11:40:54.648] [info]  image upscayl:  71.43%
+
+[2025-01-19 11:40:54.649] [info]  🐞 BACKEND REPORTED:  image upscayl:  71.43%
+
+[2025-01-19 11:40:54.652] [info]  🚧 UPSCAYL_PROGRESS:  71.43%
+
+[2025-01-19 11:40:59.047] [info]  image upscayl:  74.29%
+
+[2025-01-19 11:40:59.049] [info]  🐞 BACKEND REPORTED:  image upscayl:  74.29%
+
+[2025-01-19 11:40:59.051] [info]  🚧 UPSCAYL_PROGRESS:  74.29%
+
+[2025-01-19 11:41:03.447] [info]  image upscayl:  77.14%
+
+[2025-01-19 11:41:03.448] [info]  🐞 BACKEND REPORTED:  image upscayl:  77.14%
+
+[2025-01-19 11:41:03.450] [info]  🚧 UPSCAYL_PROGRESS:  77.14%
+
+[2025-01-19 11:41:07.841] [info]  image upscayl:  80.00%
+
+[2025-01-19 11:41:07.844] [info]  🐞 BACKEND REPORTED:  image upscayl:  80.00%
+
+[2025-01-19 11:41:07.848] [info]  🚧 UPSCAYL_PROGRESS:  80.00%
+
+[2025-01-19 11:41:11.246] [info]  image upscayl:  82.86%
+
+[2025-01-19 11:41:11.248] [info]  🐞 BACKEND REPORTED:  image upscayl:  82.86%
+
+[2025-01-19 11:41:11.250] [info]  🚧 UPSCAYL_PROGRESS:  82.86%
+
+[2025-01-19 11:41:13.122] [info]  image upscayl:  85.71%
+
+[2025-01-19 11:41:13.123] [info]  🐞 BACKEND REPORTED:  image upscayl:  85.71%
+
+[2025-01-19 11:41:13.125] [info]  🚧 UPSCAYL_PROGRESS:  85.71%
+
+[2025-01-19 11:41:14.987] [info]  image upscayl:  88.57%
+
+[2025-01-19 11:41:14.988] [info]  🐞 BACKEND REPORTED:  image upscayl:  88.57%
+
+[2025-01-19 11:41:14.990] [info]  🚧 UPSCAYL_PROGRESS:  88.57%
+
+[2025-01-19 11:41:16.857] [info]  image upscayl:  91.43%
+
+[2025-01-19 11:41:16.859] [info]  🐞 BACKEND REPORTED:  image upscayl:  91.43%
+
+[2025-01-19 11:41:16.861] [info]  🚧 UPSCAYL_PROGRESS:  91.43%
+
+[2025-01-19 11:41:18.722] [info]  image upscayl:  94.29%
+
+[2025-01-19 11:41:18.723] [info]  🐞 BACKEND REPORTED:  image upscayl:  94.29%
+
+[2025-01-19 11:41:18.731] [info]  🚧 UPSCAYL_PROGRESS:  94.29%
+
+[2025-01-19 11:41:20.305] [info]  image upscayl:  97.14%
+
+[2025-01-19 11:41:20.306] [info]  🐞 BACKEND REPORTED:  image upscayl:  97.14%
+
+[2025-01-19 11:41:20.308] [info]  🚧 UPSCAYL_PROGRESS:  97.14%
+
+[2025-01-19 11:41:23.174] [info]  💯 Done upscaling
+[2025-01-19 11:41:23.175] [info]  🐞 BACKEND REPORTED:  💯 Done upscaling
+[2025-01-19 11:41:23.178] [info]  upscaledImagePath:  
+[2025-01-19 11:41:23.178] [info]  💯 UPSCAYL_DONE:  /home/pyramorphix/Downloads/Telegram Desktop/Chelic_upscayl_4x_realesrgan-x4plus.png
