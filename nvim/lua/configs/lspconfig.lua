@@ -16,7 +16,7 @@ for _, lsp in ipairs(servers) do
 end
 
 -- typescript
-lspconfig.tsserver.setup {
+lspconfig.ts_ls.setup {
   on_attach = on_attach,
   on_init = on_init,
   capabilities = capabilities,
@@ -26,4 +26,13 @@ lspconfig.pyright.setup {
   on_attach = on_attach,
   capabilities = capabilities,
   filetypes = {"python"},
+}
+
+lspconfig.clangd.setup {
+  cmd = {"clangd", "--log=verbose"},
+  on_attach = function(client, bufnr)
+    -- client.server_capabilities.signatureHelpProvider = false
+    on_attach(client, bufnr)
+  end,
+  capabilities = capabilities,
 }

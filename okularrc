@@ -12,26 +12,26 @@ ToolBarsMovable=Disabled
 IconSize=16
 
 [Recent Files]
-File1[$e]=$HOME/Downloads/2k_DU_lec_Tema04.pdf
-File10[$e]=$HOME/Downloads/sbornik-zadach-po-obschemu-kursu-fiziki-v-3-chastjah-chast-2-elektrichestvo-i-magnetizm-optika.pdf
-File2[$e]=$HOME/Downloads/DU-MFTI-UmnovAE+EA.pdf
-File3[$e]=$HOME/Downloads/alggeomvesnaiii1.pdf
-File4[$e]=$HOME/TeX/labs_4sem/4.2.1. Кольца Ньютона/spreadsheet.py
-File5[$e]=$HOME/Downloads/Telegram Desktop/Project_1_ru (6).pdf
-File6[$e]=$HOME/Downloads/Telegram Desktop/Физика ОПТ 4сем ПМФ 2024-25.pdf
-File7[$e]=$HOME/Downloads/Telegram Desktop/2 курс оптика 2025.pdf
-File8[$e]=$HOME/Downloads/Telegram Desktop/Маршруты 2 курс-оптика-29-01-2025.pdf
-File9[$e]=$HOME/Downloads/geometry_040324.pdf
-Name1[$e]=2k_DU_lec_Tema04.pdf
-Name10[$e]=sbornik-zadach-po-obschemu-kursu-fiziki-v-3-chastjah-chast-2-elektrichestvo-i-magnetizm-optika.pdf
-Name2[$e]=DU-MFTI-UmnovAE+EA.pdf
-Name3[$e]=alggeomvesnaiii1.pdf
-Name4[$e]=spreadsheet.py
-Name5[$e]=Project_1_ru (6).pdf
-Name6[$e]=Физика ОПТ 4сем ПМФ 2024-25.pdf
-Name7[$e]=2 курс оптика 2025.pdf
-Name8[$e]=Маршруты 2 курс-оптика-29-01-2025.pdf
-Name9[$e]=geometry_040324.pdf
+File1[$e]=$HOME/Downloads/Telegram Desktop/Физика ОПТ 4сем ПМФ 2024-25.pdf
+File10[$e]=$HOME/Downloads/Telegram Desktop/hw2_version4.pdf
+File2[$e]=$HOME/Downloads/Telegram Desktop/2 курс оптика 2025.pdf
+File3[$e]=$HOME/Downloads/Telegram Desktop/Маршруты 2 курс-оптика-29-01-2025.pdf
+File4[$e]=$HOME/Downloads/geometry_040324.pdf
+File5[$e]=$HOME/Downloads/sbornik-zadach-po-obschemu-kursu-fiziki-v-3-chastjah-chast-2-elektrichestvo-i-magnetizm-optika.pdf
+File6[$e]=$HOME/Downloads/sidorenko-v.v.-malye-kolebaniya-v-mekhanicheskikh-sistemakh.pdf
+File7[$e]=$HOME/Downloads/gmsh.pdf
+File8[$e]=$HOME/Downloads/Telegram Desktop/дз2_version4.pdf
+File9[$e]=$HOME/Downloads/дз2_version4.pdf
+Name1[$e]=Физика ОПТ 4сем ПМФ 2024-25.pdf
+Name10[$e]=hw2_version4.pdf
+Name2[$e]=2 курс оптика 2025.pdf
+Name3[$e]=Маршруты 2 курс-оптика-29-01-2025.pdf
+Name4[$e]=geometry_040324.pdf
+Name5[$e]=sbornik-zadach-po-obschemu-kursu-fiziki-v-3-chastjah-chast-2-elektrichestvo-i-magnetizm-optika.pdf
+Name6[$e]=sidorenko-v.v.-malye-kolebaniya-v-mekhanicheskikh-sistemakh.pdf
+Name7[$e]=gmsh.pdf
+Name8[$e]=дз2_version4.pdf
+Name9[$e]=дз2_version4.pdf
 
 [Toolbar quickAnnotationToolBar]
 IconSize=16

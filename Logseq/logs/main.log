@@ -1,0 +1,137 @@
+[2025-02-12 23:35:29.645] [info] Logseq App(0.10.9) Starting... 
+[2025-02-12 23:35:29.651] [info] restore proxy settings {:type "system"}
+[2025-02-12 23:35:29.652] [info] set proxy to {:type "system"}
+[2025-02-12 23:35:32.575] [debug] :electron.handler/watch-dir {:path "/home/pyramorphix/.logseq/config"}
+[2025-02-12 23:36:39.555] [info] :electron.handler/open-dir open folder selection dialog
+[2025-02-12 23:36:53.407] [debug] :electron.handler/open-dir {:path "/home/pyramorphix/Vault"}
+[2025-02-12 23:36:57.468] [debug] :electron.handler/watch-dir {:path "/home/pyramorphix/Vault"}
+[2025-02-12 23:37:40.225] [info] :electron.handler/backup backup db file logseq/config.edn
+[2025-02-12 23:37:41.805] [info] :electron.handler/backup backup db file logseq/config.edn
+[2025-02-12 23:37:43.478] [info] :electron.handler/backup backup db file logseq/config.edn
+[2025-02-12 23:37:54.110] [info] :electron.handler/backup backup db file logseq/config.edn
+[2025-02-12 23:37:59.570] [info] :electron.handler/backup backup db file logseq/config.edn
+[2025-02-12 23:38:11.933] [info] :electron.handler/backup backup db file logseq/config.edn
+[2025-02-12 23:38:31.300] [info] :electron.handler/backup backup db file logseq/config.edn
+[2025-02-12 23:39:50.547] [debug] window-all-closed Quitting...
+[2025-02-12 23:40:06.151] [info] Logseq App(0.10.9) Starting... 
+[2025-02-12 23:40:06.166] [info] restore proxy settings {:type "system"}
+[2025-02-12 23:40:06.167] [info] set proxy to {:type "system"}
+[2025-02-12 23:40:09.201] [debug] :electron.handler/watch-dir {:path "/home/pyramorphix/.logseq/config"}
+[2025-02-12 23:40:09.254] [debug] :electron.handler/unwatch-dir {:path "/home/pyramorphix/Vault"}
+[2025-02-12 23:40:09.255] [debug] :electron.handler/watch-dir {:path "/home/pyramorphix/Vault"}
+[2025-02-12 23:40:21.131] [info] Delete search indice:  /home/pyramorphix/.config/Logseq/search/logseq_local__home_pyramorphix_Vault
+[2025-02-12 23:40:27.745] [info] :electron.handler/open-dir open folder selection dialog
+[2025-02-12 23:40:29.846] [debug] :electron.handler/open-dir {:path nil}
+[2025-02-12 23:41:28.822] [info] :electron.handler/open-dir open folder selection dialog
+[2025-02-12 23:41:44.376] [debug] :electron.handler/open-dir {:path "/home/pyramorphix/Mind"}
+[2025-02-12 23:41:44.677] [debug] :electron.handler/watch-dir {:path "/home/pyramorphix/Mind"}
+[2025-02-12 23:44:51.414] [debug] [Marketplace] === Installing: catppuccin/logseq ===
+[2025-02-12 23:44:51.561] [debug] [Marketplace] ERR: valid github api -  Error: Unauthorized
+    at /usr/lib/logseq-desktop/resources/app/electron.js:590:188
+    at Function.e [as g] (/usr/lib/logseq-desktop/resources/app/electron.js:155:235)
+    at /usr/lib/logseq-desktop/resources/app/electron.js:539:312
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+[2025-02-12 23:44:51.950] [debug] [Marketplace] Release latest: https://api.github.com/repos/catppuccin/logseq/releases/latest :status 200
+[2025-02-12 23:44:51.954] [debug] [Marketplace] Release latest: v0.6.4  from https://api.github.com/repos/catppuccin/logseq/releases/assets/200087122
+[2025-02-12 23:44:52.789] [debug] [Marketplace] [Updated DONE] v0.6.4
+[2025-02-12 23:47:25.462] [info] :electron.handler/open-dir open folder selection dialog
+[2025-02-12 23:47:27.376] [debug] :electron.handler/open-dir {:path nil}
+[2025-02-12 23:47:52.033] [debug] [Marketplace] === Installing: pengx17/logseq-plugin-tabs ===
+[2025-02-12 23:47:52.331] [debug] [Marketplace] ERR: valid github api -  Error: Unauthorized
+    at /usr/lib/logseq-desktop/resources/app/electron.js:590:188
+    at Function.e [as g] (/usr/lib/logseq-desktop/resources/app/electron.js:155:235)
+    at /usr/lib/logseq-desktop/resources/app/electron.js:539:312
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+[2025-02-12 23:47:52.677] [debug] [Marketplace] Release latest: https://api.github.com/repos/pengx17/logseq-plugin-tabs/releases/latest :status 200
+[2025-02-12 23:47:52.679] [debug] [Marketplace] Release latest: v1.19.4  from https://api.github.com/repos/pengx17/logseq-plugin-tabs/releases/assets/143509183
+[2025-02-12 23:47:53.702] [debug] [Marketplace] [Updated DONE] v1.19.4
+[2025-02-12 23:48:12.461] [debug] [Marketplace] === Installing: vipzhicheng/logseq-plugin-vim-shortcuts ===
+[2025-02-12 23:48:12.858] [debug] [Marketplace] Release latest: https://api.github.com/repos/vipzhicheng/logseq-plugin-vim-shortcuts/releases/latest :status 200
+[2025-02-12 23:48:12.860] [debug] [Marketplace] Release latest: v0.1.22  from https://api.github.com/repos/vipzhicheng/logseq-plugin-vim-shortcuts/releases/assets/146683553
+[2025-02-12 23:48:14.046] [debug] [Marketplace] [Updated DONE] v0.1.22
+[2025-02-12 23:48:21.577] [debug] [Marketplace] === Installing: yoyurec/logseq-awesome-ui ===
+[2025-02-12 23:48:21.971] [debug] [Marketplace] Release latest: https://api.github.com/repos/yoyurec/logseq-awesome-ui/releases/latest :status 200
+[2025-02-12 23:48:21.973] [debug] [Marketplace] Release latest: v2.4.0  from https://api.github.com/repos/yoyurec/logseq-awesome-ui/releases/assets/131829332
+[2025-02-12 23:48:23.134] [debug] [Marketplace] [Updated DONE] v2.4.0
+[2025-02-12 23:54:12.186] [debug] window-all-closed Quitting...
+[2025-02-13 11:28:40.364] [info] Logseq App(0.10.9) Starting... 
+[2025-02-13 11:28:40.370] [info] restore proxy settings {:type "system"}
+[2025-02-13 11:28:40.371] [info] set proxy to {:type "system"}
+[2025-02-13 11:28:44.034] [debug] :electron.handler/watch-dir {:path "/home/pyramorphix/.logseq/config"}
+[2025-02-13 11:28:44.096] [debug] :electron.handler/unwatch-dir {:path "/home/pyramorphix/Mind"}
+[2025-02-13 11:28:44.097] [debug] :electron.handler/watch-dir {:path "/home/pyramorphix/Mind"}
+[2025-02-13 11:28:59.516] [debug] window-all-closed Quitting...
+[2025-02-13 13:50:21.363] [info] Logseq App(0.10.9) Starting... 
+[2025-02-13 13:50:21.369] [info] restore proxy settings {:type "system"}
+[2025-02-13 13:50:21.370] [info] set proxy to {:type "system"}
+[2025-02-13 13:50:25.014] [debug] :electron.handler/watch-dir {:path "/home/pyramorphix/.logseq/config"}
+[2025-02-13 13:50:25.077] [debug] :electron.handler/unwatch-dir {:path "/home/pyramorphix/Mind"}
+[2025-02-13 13:50:25.079] [debug] :electron.handler/watch-dir {:path "/home/pyramorphix/Mind"}
+[2025-02-13 13:50:25.473] [debug] [Marketplace] === Updating: yoyurec/logseq-awesome-ui ===
+[2025-02-13 13:50:25.695] [debug] [Marketplace] ERR: valid github api -  Error: Unauthorized
+    at /usr/lib/logseq-desktop/resources/app/electron.js:590:188
+    at Function.e [as g] (/usr/lib/logseq-desktop/resources/app/electron.js:155:235)
+    at /usr/lib/logseq-desktop/resources/app/electron.js:539:312
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+[2025-02-13 13:50:26.058] [debug] [Marketplace] Release latest: https://api.github.com/repos/yoyurec/logseq-awesome-ui/releases/latest :status 200
+[2025-02-13 13:50:26.061] [debug] [Marketplace] Release latest: v2.4.0  from https://api.github.com/repos/yoyurec/logseq-awesome-ui/releases/assets/131829332
+[2025-02-13 13:50:26.062] [debug] [Marketplace] Release compare: v2.4.0 (current) >  v2.4.0 (latest)
+[2025-02-13 13:50:26.063] [debug] [Marketplace] Update skip: no new version
+[2025-02-13 13:50:26.570] [debug] [Marketplace] === Updating: vipzhicheng/logseq-plugin-vim-shortcuts ===
+[2025-02-13 13:50:27.080] [debug] [Marketplace] Release latest: https://api.github.com/repos/vipzhicheng/logseq-plugin-vim-shortcuts/releases/latest :status 200
+[2025-02-13 13:50:27.083] [debug] [Marketplace] Release latest: v0.1.22  from https://api.github.com/repos/vipzhicheng/logseq-plugin-vim-shortcuts/releases/assets/146683553
+[2025-02-13 13:50:27.083] [debug] [Marketplace] Release compare: v0.1.22 (current) >  v0.1.22 (latest)
+[2025-02-13 13:50:27.084] [debug] [Marketplace] Update skip: no new version
+[2025-02-13 13:50:27.589] [debug] [Marketplace] === Updating: catppuccin/logseq ===
+[2025-02-13 13:50:27.900] [debug] [Marketplace] Release latest: https://api.github.com/repos/catppuccin/logseq/releases/latest :status 200
+[2025-02-13 13:50:27.903] [debug] [Marketplace] Release latest: v0.6.4  from https://api.github.com/repos/catppuccin/logseq/releases/assets/200087122
+[2025-02-13 13:50:27.903] [debug] [Marketplace] Release compare: v0.6.4 (current) >  v0.6.4 (latest)
+[2025-02-13 13:50:27.904] [debug] [Marketplace] Update skip: no new version
+[2025-02-13 13:50:28.412] [debug] [Marketplace] === Updating: pengx17/logseq-plugin-tabs ===
+[2025-02-13 13:50:28.718] [debug] [Marketplace] Release latest: https://api.github.com/repos/pengx17/logseq-plugin-tabs/releases/latest :status 200
+[2025-02-13 13:50:28.721] [debug] [Marketplace] Release latest: v1.19.4  from https://api.github.com/repos/pengx17/logseq-plugin-tabs/releases/assets/143509183
+[2025-02-13 13:50:28.721] [debug] [Marketplace] Release compare: v1.19.4 (current) >  v1.19.4 (latest)
+[2025-02-13 13:50:28.722] [debug] [Marketplace] Update skip: no new version
+[2025-02-13 13:50:31.942] [info] :electron.handler/unlink {:path "/home/pyramorphix/Mind/journals/2025_02_12.md"}
+[2025-02-13 13:50:31.943] [debug] :electron.handler/unlink recycle to /home/pyramorphix/Mind/logseq/.recycle/journals_2025_02_12.md
+[2025-02-13 13:50:32.065] [debug] :electron.fs-watcher/on-unlink {:path "/home/pyramorphix/Mind/journals/2025_02_12.md"}
+[2025-02-14 03:37:59.414] [debug] window-all-closed Quitting...
+[2025-02-14 04:56:45.078] [info] Logseq App(0.10.9) Starting... 
+[2025-02-14 04:56:45.085] [info] restore proxy settings {:type "system"}
+[2025-02-14 04:56:45.086] [info] set proxy to {:type "system"}
+[2025-02-14 04:56:46.823] [debug] :electron.handler/watch-dir {:path "/home/pyramorphix/.logseq/config"}
+[2025-02-14 04:56:46.917] [debug] :electron.handler/unwatch-dir {:path "/home/pyramorphix/Mind"}
+[2025-02-14 04:56:46.918] [debug] :electron.handler/watch-dir {:path "/home/pyramorphix/Mind"}
+[2025-02-14 04:56:47.555] [debug] [Marketplace] === Updating: yoyurec/logseq-awesome-ui ===
+[2025-02-14 04:56:48.007] [debug] [Marketplace] ERR: valid github api -  Error: Unauthorized
+    at /usr/lib/logseq-desktop/resources/app/electron.js:590:188
+    at Function.e [as g] (/usr/lib/logseq-desktop/resources/app/electron.js:155:235)
+    at /usr/lib/logseq-desktop/resources/app/electron.js:539:312
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+[2025-02-14 04:56:48.417] [debug] [Marketplace] Release latest: https://api.github.com/repos/yoyurec/logseq-awesome-ui/releases/latest :status 200
+[2025-02-14 04:56:48.419] [debug] [Marketplace] Release latest: v2.4.0  from https://api.github.com/repos/yoyurec/logseq-awesome-ui/releases/assets/131829332
+[2025-02-14 04:56:48.420] [debug] [Marketplace] Release compare: v2.4.0 (current) >  v2.4.0 (latest)
+[2025-02-14 04:56:48.420] [debug] [Marketplace] Update skip: no new version
+[2025-02-14 04:56:48.926] [debug] [Marketplace] === Updating: catppuccin/logseq ===
+[2025-02-14 04:56:49.338] [debug] [Marketplace] Release latest: https://api.github.com/repos/catppuccin/logseq/releases/latest :status 200
+[2025-02-14 04:56:49.339] [debug] [Marketplace] Release latest: v0.6.4  from https://api.github.com/repos/catppuccin/logseq/releases/assets/200087122
+[2025-02-14 04:56:49.340] [debug] [Marketplace] Release compare: v0.6.4 (current) >  v0.6.4 (latest)
+[2025-02-14 04:56:49.340] [debug] [Marketplace] Update skip: no new version
+[2025-02-14 04:56:49.845] [debug] [Marketplace] === Updating: pengx17/logseq-plugin-tabs ===
+[2025-02-14 04:56:50.279] [debug] [Marketplace] Release latest: https://api.github.com/repos/pengx17/logseq-plugin-tabs/releases/latest :status 200
+[2025-02-14 04:56:50.281] [debug] [Marketplace] Release latest: v1.19.4  from https://api.github.com/repos/pengx17/logseq-plugin-tabs/releases/assets/143509183
+[2025-02-14 04:56:50.281] [debug] [Marketplace] Release compare: v1.19.4 (current) >  v1.19.4 (latest)
+[2025-02-14 04:56:50.282] [debug] [Marketplace] Update skip: no new version
+[2025-02-14 04:56:50.786] [debug] [Marketplace] === Updating: vipzhicheng/logseq-plugin-vim-shortcuts ===
+[2025-02-14 04:56:51.283] [debug] [Marketplace] Release latest: https://api.github.com/repos/vipzhicheng/logseq-plugin-vim-shortcuts/releases/latest :status 200
+[2025-02-14 04:56:51.285] [debug] [Marketplace] Release latest: v0.1.22  from https://api.github.com/repos/vipzhicheng/logseq-plugin-vim-shortcuts/releases/assets/146683553
+[2025-02-14 04:56:51.285] [debug] [Marketplace] Release compare: v0.1.22 (current) >  v0.1.22 (latest)
+[2025-02-14 04:56:51.285] [debug] [Marketplace] Update skip: no new version
+[2025-02-14 04:56:52.532] [debug] window-all-closed Quitting...
+[2025-02-14 10:00:52.311] [info] Logseq App(0.10.9) Starting... 
+[2025-02-14 10:00:52.320] [info] restore proxy settings {:type "system"}
+[2025-02-14 10:00:52.320] [info] set proxy to {:type "system"}
+[2025-02-14 10:00:54.260] [debug] :electron.handler/watch-dir {:path "/home/pyramorphix/.logseq/config"}
+[2025-02-14 10:00:54.367] [debug] :electron.handler/unwatch-dir {:path "/home/pyramorphix/Mind"}
+[2025-02-14 10:00:54.368] [debug] :electron.handler/watch-dir {:path "/home/pyramorphix/Mind"}
+[2025-02-14 10:01:23.697] [debug] window-all-closed Quitting...

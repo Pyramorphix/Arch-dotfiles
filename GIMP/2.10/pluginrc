@@ -4528,7 +4528,7 @@
         (proc-arg 16 "drawable" "Input drawable (not used)")
         (proc-arg 0 "link-after-alignment" "Link the visible layers after alignment { TRUE, FALSE }")
         (proc-arg 0 "use-bottom" "use the bottom layer as the base of alignment { TRUE, FALSE }")))
-(plug-in-def "${gimp_plug_in_dir}/plug-ins/file-jxl/file-jxl" 1731190321
+(plug-in-def "${gimp_plug_in_dir}/plug-ins/file-jxl/file-jxl" 1732674260
     (proc-def "file-jxl-load" 1
          "Loads JPEG XL image files"
          "Loads JPEG XL image files"

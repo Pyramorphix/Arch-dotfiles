@@ -33,6 +33,7 @@ dofile(vim.g.base46_cache .. "defaults")
 dofile(vim.g.base46_cache .. "statusline")
 
 require "nvchad.autocmds"
+require "options"
 
 require("mason").setup {
   ensure_installed = {"pyright", "mypy", "ruff"}
@@ -41,8 +42,10 @@ require("mason-lspconfig").setup {
   ensure_installed = {"pyright"},
 }
 require 'lspconfig'.pyright.setup {}
+require 'lspconfig'.clangd.setup {}
 
 vim.diagnostic.config({ virtual_text = false })
+
 
 vim.schedule(function()
   require "mappings"

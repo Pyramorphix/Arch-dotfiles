@@ -33,8 +33,21 @@ return {
   },
   {
     "williamboman/mason.nvim",
+    opts = {
+      ensure_installed = {
+        "clangd"
+      }
+    },
+  },
+  {
     "williamboman/mason-lspconfig.nvim",
+  },
+  {
     "neovim/nvim-lspconfig",
+    config = function ()
+      require "configs.lspconfig"
+      require "custom.configs.lspconfig"
+    end
   },
   {
     "marcussimonsen/let-it-snow.nvim",
